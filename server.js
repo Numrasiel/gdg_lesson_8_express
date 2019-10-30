@@ -13,7 +13,8 @@ app.get("/", (request, response) => response.sendFile(__dirname + "/index.html")
 
 
 // port to listen on
-const port = 3000;
+//const port = 3000;//local run
+const port = process.env.PORT;
 
 // start the server on the given port
 app.listen(port, () => console.log(`server listening on port ${port}`));
