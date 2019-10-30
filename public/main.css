@@ -1,15 +1,15 @@
 /* this style file is referenced in the index.html file and will be sent to the client */
 
 body {
-    background-color: black;
+    background-color: #fff7aa;
 }
 
 .title {
-    color: darkred;
+    color: blue;
 }
 
 .main-text {
-    color: darkred;
+    color: #5588ee;
     font-style: italic;
 }
 
