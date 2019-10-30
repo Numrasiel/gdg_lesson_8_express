@@ -11,6 +11,10 @@ app.use(express.static("public"));
 // serve the index.html file when visiting the homepage
 app.get("/", (request, response) => response.sendFile(__dirname + "/index.html"));
 
+app.get('/rest/', function (req, res) {
+    let json={'name':'jesus','age':32}
+    res.send(json);
+});
 
 // port to listen on
 //const port = 3000;//local run
